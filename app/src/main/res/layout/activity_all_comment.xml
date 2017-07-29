@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_all_comment"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#e0e0e0"
+        android:gravity="center"
+        android:text="网友点评"
+        android:textSize="25sp" />
+    <com.example.weilin.travelapp.tools.RefreshListView
+        android:id="@+id/all_comment_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.example.weilin.travelapp.tools.RefreshListView>
+
+</LinearLayout>

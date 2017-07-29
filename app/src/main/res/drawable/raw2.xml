@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 获得焦点但未按下时的背景图片 -->
+    <item  android:state_enabled="true" android:state_focused="true" android:state_pressed="false">
+        <shape>
+
+            <!--corners主要是设置我们所画图形四个角的半径 radius：四角半径 bottomLeftRadius:左下角半径,
+14     bottomRightRadius:右下角半径,topLeftRadius:左上角半径,topRightRadius:右上角半径-->
+
+            <gradient android:startColor="#d9ff8600" android:endColor="#d9ff8600"/>
+        </shape>
+    </item>
+    <!-- 按下时的背景图片 -->
+    <item  android:state_enabled="true" android:state_pressed="true">
+        <shape>
+
+            <!--corners主要是设置我们所画图形四个角的半径 radius：四角半径 bottomLeftRadius:左下角半径,
+14     bottomRightRadius:右下角半径,topLeftRadius:左上角半径,topRightRadius:右上角半径-->
+
+            <gradient android:startColor="#d2f79029" android:endColor="#d2f79029"/>
+        </shape>
+
+    </item>
+
+    <!-- 默认时的背景图片 -->
+    <item>
+        <shape>
+
+            <!--corners主要是设置我们所画图形四个角的半径 radius：四角半径 bottomLeftRadius:左下角半径,
+ 14     bottomRightRadius:右下角半径,topLeftRadius:左上角半径,topRightRadius:右上角半径-->
+            <gradient android:startColor="#ff8600" android:endColor="#ff8600"/>
+        </shape>
+    </item>
+    <!-- -->
+</selector>
